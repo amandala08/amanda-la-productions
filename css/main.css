@@ -1,0 +1,186 @@
+/*****BASE STYLES*****/
+body {
+  font-family: 'Lora', serif;
+  color: #D6D1CD;
+  background-color: #211433;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+p {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+/*****GRID*****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto:
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+  box-sizing: border-box;
+}
+
+#work {
+  height: 1100px;
+  overflow: auto;
+}
+
+#about {
+  height: 750px;
+}
+
+#contact {
+  height: 400px;
+}
+
+/*****HEADER*****/
+
+header {
+  height: 800px;
+  background: url('../img/hero.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+nav {
+    float: right;
+    padding: 50px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #D6D1CD;
+    padding-left: 80px;
+}
+
+header h1 {
+  font-size: 65px;
+  text-align: center;
+  padding-right: 25%;
+}
+
+#hero-header {
+  font-family: 'Fredericka the Great', cursive;
+  padding-top: 100px;
+}
+
+#logo {
+  padding: 50px 25px;
+}
+
+/*****WORK*****/
+.video-box {
+  box-sizing: border-box;
+  float: left;
+  width: 600px;
+  margin-top: 5%;
+}
+
+#work h2{
+  text-align: center;
+  padding-top: 5%;
+  overflow: auto;
+}
+
+/*****ABOUT*****/
+
+#about {
+  background: url('../img/amanda-camera.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+
+#empty-div {
+  height: 1px;
+}
+
+#about h2 {
+  color: #211433;
+  text-align: center;
+}
+
+#about p {
+  background: rgba(229, 236, 233, .5);
+  color: #000000;
+  padding: 25px;
+  text-align: center;
+}
+
+/*****CONTACT*****/
+
+#contact h2 {
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#contact h3 {
+  color: #D6D1CD;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#contact #contact-message {
+  font-family:'Lora', serif;
+  font-style: italic;
+  padding: 10px 0 45px 0;
+}
+
+#contact p {
+  text-align: center;
+}
+
+#contact-right {
+    border-left: solid 2px #D6D1CD;
+}
+
+#contact-right img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact a {
+  color: #9055A2;
+  text-decoration: none;
+}
+
+#envelope {
+  display: inline-block;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+/*****COPYRIGHT*****/
+
+#copyright p {
+  font-size: 16px;
+  padding-top: 30px;
+  text-align: center;
+}
